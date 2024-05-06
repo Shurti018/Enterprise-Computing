@@ -3,6 +3,7 @@
 <head>
     <title>MANEE THAI CUISINE</title>
     <link rel="stylesheet" href="Home Page CSS.css">
+    <script src="Homepage .js"></script>
 </head>
 <body>
     <p>10 Brookfield Rd, Minto NSW 2566</p>
@@ -29,10 +30,33 @@
       </div>
 </body>
 <body>  
-    <div class="homepage">
-        <img src="Home_pic.jpg" alt="homeimage">
+    <div class="slideshow-container"><!--from W3 schools-->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Home_pic.jpg" style="width:100%">
+            <div class="text">Manee Thai Cuisine</div>
+          </div>
+    <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="IMG_2486.JPG" style="width:100%">
+            <div class="text">Caption two</div><!--text maybe-->
+          </div>
+    <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="IMG_2483.JPG" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </div>
-    </body>
+</body>
 
  <body>
     <div class="trading-hours">
