@@ -68,4 +68,26 @@
   /* images*/
 
 
-  
+.opening {
+    background-image: url(Home_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     color: black;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     padding-right: 40px;
+     padding-left:40px; 
+}
+
+h1 {
+    font-family:'Bebas Neue';
+     font-size: 72px;
+     padding-bottom: 350px;
+     text-align: left;
+     font-weight: normal;
+   }
+
+.trading-hours {
+font-size: larger;
+
+}
