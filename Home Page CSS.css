@@ -63,9 +63,7 @@
   .subnav:hover .subnav-content {
     display: block;
   }
-  /* slideshow */
-
-  /* images*/
+ 
 
 
 .opening {
@@ -73,6 +71,7 @@
     background-size: cover;
     background-repeat: no-repeat;
      color: black;
+     width:100%;
      padding-top: 40px;
      padding-bottom: 40px;
      padding-right: 40px;
@@ -88,6 +87,23 @@ h1 {
    }
 
 .trading-hours {
-font-size: larger;
-
+  vertical-align: middle;
+  text-align: right;
+  width: 450px;
+  display:inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left:40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: xx-large;  
 }
+
+.about, .delivery{
+  text-align: right;
+  vertical-align: top;
+}
+

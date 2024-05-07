@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANEE THAI CUISINE</title>
     <link rel="stylesheet" href="Home Page CSS.css">
-    <script src="Homepage .js"></script>
 </head>
 <body>
     <p>10 Brookfield Rd, Minto NSW 2566</p>
@@ -31,7 +32,7 @@
 </body>
 <body>
     <div class="opening"> 
-<h1> Welcome to <br> Manee Thai Cuisine</h1>
+<h1> Welcome to <br> <em>Manee Thai Cuisine</em></h1>
 <h2> Our Home of Thai</h2> 
 </div> 
 </body>
@@ -45,9 +46,48 @@
         <p>Friday 11am-9pm</p>
         <p>Saturday 11am-9pm</p>
         <p>Sunday 11am-9pm</p>
-        
-    </div>
+ </div>
+ 
 </body>
+
+<footer>
+<h2><strong>Join Us Today!</strong></h2>
+<h5 id="response"></h5>
+<input id="answer">
+<button id="button">
+  Enter Email
+</button>
+<script>
+  function clickAction() {
+  response.textContent = answer.value;
+  }
+  button.onclick = clickAction;
+</script> 
+
+<body>
+  <div class="copyright">
+    <p>  @Copyright Manee Tahi Cuisine</p>
+  </div>
+
+  <div class="about">
+    <p>Contact Us</p>
+    <p>About Us</p>
+    <p>Feedback</p>
+  </div>
+
+  <div class="delivery">
+    <p>Uber Eats</p>
+    <p>Doordash</p>
+  </div>
+
+  <div class="social">
+    <p>Instagram</p>
+    <p>Twitter</p>
+    <p>Facebook</p>
+  </div>
+</body>
+
+</footer>
 
 
 
