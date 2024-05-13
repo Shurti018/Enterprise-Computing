@@ -1,3 +1,4 @@
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -67,7 +68,7 @@
 
 
 .opening {
-    background-image: url(Home_pic.jpg);
+    background-image: url(home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
      color: black;
@@ -79,7 +80,6 @@
 }
 
 h1 {
-    font-family:'Bebas Neue';
      font-size: 72px;
      padding-bottom: 350px;
      text-align: left;
@@ -87,19 +87,18 @@ h1 {
    }
 
 .trading-hours {
-  vertical-align: middle;
-  text-align: right;
   width: 450px;
   display:inline-block;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 40px;
   padding-left:40px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 50px;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: xx-large;  
+  font-size: xx-large; 
+  text-align: right; 
 }
 
 .about, .delivery, .social{
@@ -107,3 +106,6 @@ h1 {
   vertical-align: top;
 }
 
+.image {
+  display: flex;
+}

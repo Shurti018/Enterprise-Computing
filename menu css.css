@@ -65,7 +65,7 @@
     display: block;
   }
 
-  h2, h4 {
+  h1, h3 {
     text-align: center;
   }
 
@@ -87,6 +87,10 @@ display: inline-block;
  height: 350px;
  padding-top: 5%;
 vertical-align: middle;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .Entree {
@@ -94,6 +98,10 @@ vertical-align: middle;
   display: inline-block;
    width: 300px;
    height: 350px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 
 }
 
@@ -102,6 +110,10 @@ vertical-align: middle;
   display: inline-block;
    width: 300px;
    height: 350px;
+   padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .other {
@@ -114,6 +126,7 @@ vertical-align: middle;
    margin-left: 20px;
    margin-right: 20px;
    vertical-align: middle;
+   text-align: center;
 }
 
 
