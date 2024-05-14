@@ -81,7 +81,7 @@ font-weight: bolder;
 }
 
 .fi {
-  border: 5px double gold;
+border: 5px double gold;
 display: inline-block;
  width: 300px;
  height: 350px;
@@ -114,6 +114,7 @@ padding-bottom: 30px;
 padding-right: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
+vertical-align: middle;
 }
 
 .other {
