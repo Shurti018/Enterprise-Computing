@@ -25,7 +25,7 @@
           <a href="Delivery .html"> Delivery</a>
         </div>
         <div class="subnav">
-          <a href="Contact Us .html"> Contact Us</a>
+          <a href="Feedback.html"> Feedback </a>
         </div>
         <a href="About us .html"> About Us</a>
       </div>
@@ -33,28 +33,65 @@
 
 <h1> Delivery </h1>
 
-<body>
-    <div class="delivery">
-    <h2> Uber Eats </h2>
-    <a href="https://www.ubereats.com/au/store/manee-thai-cuisine/-p993SNYR4uARG6bMm2skg"> Uber Eats</a>
-    </div>
+<body></body>
+<div class="uber">
+  <h2>UberEats</h2>
+  <a href ="https://www.ubereats.com/au/store/manee-thai-cuisine/-p993SNYR4uARG6bMm2skg"> Tonight, I'll Be Eating</a>
+  <p> $0 Delivery Fee</p> 
+  <p>New Customers</p>
+</div>
+
+<div class="dash">
+  <h2>DoorDash</h2>
+  <a href="https://www.doordash.com/en-AU/store/manee-thai-cuisine-minto-761906/"> It's Our Pleasure </a>
+</div>
 </body>
 
 <body>
-    <div class="delivery">
-        <h2> DoorDash </h2>
-        <a herf=" https://www.doordash.com/store/manee-thai-cuisine-minto-761906/"> DoorDash </a>
-    </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.503358524649!2d150.84705667571558!3d-34.03095697316503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec0fdc8a9c5f%3A0x44eadc92755cd4a2!2sManee%20Thai%20Cuisine!5e0!3m2!1sen!2sau!4v1714952341136!5m2!1sen!2sau" width="1600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
 </body>
-
-<body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.503358524649!2d150.84705667571558!3d-34.03095697316503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec0fdc8a9c5f%3A0x44eadc92755cd4a2!2sManee%20Thai%20Cuisine!5e0!3m2!1sen!2sau!4v1714952341136!5m2!1sen!2sau" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</body>
-
 
 
 
 <footer>
-    
+  <h2><strong>Join Us Today!</strong></h2>
+  <h5 id="response"></h5>
+  <input id="answer">
+  <button id="button">
+    Enter Email
+  </button>
+  <script>
+    function clickAction() {
+    response.textContent = answer.value;
+    }
+    button.onclick = clickAction;
+  </script> 
+  
+  <body>
+    <div class="copyright">
+      <p>  @Copyright Manee Tahi Cuisine</p>
+      <p> 02 9820 6405</p><!--ADD TO ALL PAGES -->
+    </div>
+  
+    <div class="about">
+      <p>Contact Us</p>
+      <p>About Us</p>
+      <p>Feedback</p>
+    </div>
+  
+    <div class="delivery">
+      <p>Uber Eats</p>
+      <p>Doordash</p>
+    </div>
+  
+    <div class="social">
+      <p>Instagram</p>
+      <p>Twitter</p>
+      <p>Facebook</p>
+    </div>
+  </body>
+  
 </footer>
 </html>

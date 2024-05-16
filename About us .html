@@ -25,7 +25,7 @@
           <a href="Delivery .html"> Delivery</a>
         </div>
         <div class="subnav">
-          <a href="Contact Us .html"> Contact Us</a>
+          <a href="Feedback.html"> Feedback </a>
         </div>
         <a href="About us .html"> About Us</a>
       </div>
@@ -34,7 +34,7 @@
 <h1> About Us </h1>
 
 <body>
-    <p>Enjoy the comforts of Manee Thai Restaurant and enjoy authentic and delicious Thai cuisine. Dine in or takeaway the freshly made vegetarian, chicken or red meat curry, noodles and stir-fried meals.</p>
+    <p class="para">Enjoy the comforts of Manee Thai Restaurant <br> and enjoy authentic and delicious Thai cuisine. <br> Dine in or takeaway the freshly made <br> vegetarian, chicken or red meat curry, noodles and stir-fried meals.</p>
 </body>
 
 <body>
@@ -47,7 +47,42 @@
 </body>
 
 <footer>
-    
+  <h2><strong>Join Us Today!</strong></h2>
+  <h5 id="response"></h5>
+  <input id="answer">
+  <button id="button">
+    Enter Email
+  </button>
+  <script>
+    function clickAction() {
+    response.textContent = answer.value;
+    }
+    button.onclick = clickAction;
+  </script> 
+  
+  <body>
+    <div class="copyright">
+      <p>  @Copyright Manee Tahi Cuisine</p>
+      <p> 02 9820 6405</p><!--ADD TO ALL PAGES -->
+    </div>
+  
+    <div class="about">
+      <p>Contact Us</p>
+      <p>About Us</p>
+      <p>Feedback</p>
+    </div>
+  
+    <div class="delivery">
+      <p>Uber Eats</p>
+      <p>Doordash</p>
+    </div>
+  
+    <div class="social">
+      <p>Instagram</p>
+      <p>Twitter</p>
+      <p>Facebook</p>
+    </div>
+  </body> 
 </footer>
 
 </html>

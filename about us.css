@@ -75,3 +75,9 @@ div.scroll-container {
   .subnav:hover .subnav-content {
     display: block;
   }
+
+
+
+.para {
+  text-align: center;
+}
