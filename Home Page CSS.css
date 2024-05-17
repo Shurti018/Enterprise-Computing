@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(12, 12, 12);
+    position: fixed;
   }
   
   /* Navigation links */
@@ -40,11 +41,11 @@
   /* Style the subnav content - positioned absolute */
   .subnav-content {
     display: none;
-    position: absolute;
     left: 0;
     background-color: goldenrod;
     width: 100%;
     z-index: 1;
+    position: fixed;
   }
   
   /* Style the subnav links */
@@ -67,44 +68,54 @@
  
 /**/
 
-.opening {
-  background-image: url(home.jpg);
-  height: 800px;
-  background-size: cover;
-  background-repeat: no-repeat;
-   color: black;
-   width:100%;
-   padding-top: 40px;
-   padding-bottom: 40px;
-   padding-right: 40px;
-   padding-left:40px;
+
+#home{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
+#home{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: 10%; /*fix*/
+}
 
+#home_content{
+  position: absolute;
+  color:#eee;
+}
 
-.slide {
-  width:1800px;
-  height: 1500px;
-object-fit: contain;
+#home_content a{
+  border: 9px soild gold;/*fix border*/
+  color: #eee;
+  padding: 3px 20px 3px 20px;
+  background: rgb(0, 0, 0, 0.6);
+  font-size: 1.5rem;
 }
 
 h1 {
-     font-size: 72px;
-     padding-bottom: 350px;
-     text-align: left;
-     font-weight: normal;
-   }
-
-.trading-hours {
-  width: 450px;
-  display:inline-block;
-  font-size: xx-large; 
-  text-align: center; 
-  border: 2px solid gold;
-  margin-left: 260px;
-  padding-left: 10%;
-  padding-right: 10%;
+  color: #eee;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 2px #000;
+  display:flex;
+  justify-content: space-around;
+  font-size: 500%;
 }
+
+
 
 .about, .delivery, .social{
   text-align: center;
@@ -116,7 +127,8 @@ h1 {
 }
 
 h2 {
-  font-family:"Playfair Display"
+  font-family:"Playfair Display";
+  font-size: 300%;
 }
 
 span {
@@ -127,3 +139,11 @@ span {
   border-bottom-style: dotted;
  border-bottom-width:5px;
 }
+
+img {
+width:1300px;
+margin: 10px;
+}
+
+
+
