@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="about us.css">
 </head>
 <body>
-    <p>10 Brookfield Rd, Minto NSW 2566</p>
+    <p class="location">10 Brookfield Rd, Minto NSW 2566</p>
 </body>
 <body>
     <div class="navbar">
@@ -33,6 +33,13 @@
 
 <h1> About Us </h1>
 
+<body class="trading">
+<h2> Trading Hours </h2>
+<h4> Monday - Sunday </h4>
+<p><span>11AM - 9PM </span> </p>
+</body>
+
+
 <body>
     <p class="para">Enjoy the comforts of Manee Thai Restaurant <br> and enjoy authentic and delicious Thai cuisine. <br> Dine in or takeaway the freshly made <br> vegetarian, chicken or red meat curry, noodles and stir-fried meals.</p>
 </body>
@@ -43,16 +50,23 @@
         <img src="IMG_2486.JPG" alt="image">
         <img src="IMG_2480.JPG" alt="image">
         <img src="IMG_2491.JPG" alt="image">
+        <img src="IMG_2489.JPG" alt="image">
+        <img src="IMG_2479.JPG" alt="image">
+
       </div>
 </body>
 
 <footer>
-  <h2><strong>Join Us Today!</strong></h2>
+ 
+  
+    <h2><strong>Join Us Today!</strong></h2>
+  
   <h5 id="response"></h5>
   <input id="answer">
   <button id="button">
     Enter Email
   </button>
+
   <script>
     function clickAction() {
     response.textContent = answer.value;
@@ -60,15 +74,16 @@
     button.onclick = clickAction;
   </script> 
   
-  <body>
-    <div class="copyright">
-      <p>  @Copyright Manee Thai Cuisine</p>
-      <p> 02 9820 6405</p><!--ADD TO ALL PAGES -->
+
+    <div class="info">
+      <p> 02 9820 6405</p>
+      <p>ManeeThai@gmail.com</p><!--ADD TO ALL PAGES -->
     </div>
   
     <div class="about">
-      <p>About Us</p>
-      <p>Feedback</p>
+      <a href="About us .html"> About Us</a>
+      <br>
+      <a href="Feedback.html"> Feedback </a>
     </div>
   
     <div class="delivery">
@@ -77,10 +92,15 @@
     </div>
   
     <div class="social">
-      <p>Instagram  Twitter Facebook</p>
-      
+      <p>Instagram  Twitter  Facebook</p>
     </div>
   </body> 
+<hr>
+<div class="copyright">
+  <p>  @Copyright Manee Thai Cuisine</p>
+</div>
+
+
 </footer>
 
 </html>

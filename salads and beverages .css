@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 .navbar {
     overflow: hidden;
     background-color:  rgb(12, 12, 12);
   }
   
-  /* Navigation links */
+  
   .navbar a {
     float: left;
     font-size: 16px;
@@ -13,13 +16,13 @@
     text-decoration: none;
   }
 
-  /* The subnavigation menu */
+  
 .subnav {
     float: left;
     overflow: hidden;
   }
   
-  /* Subnav button */
+  
   .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -31,12 +34,12 @@
     margin: 0;
   }
   
-  /* Add a red background color to navigation links on hover */
+  
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: goldenrod;
   }
   
-  /* Style the subnav content - positioned absolute */
+  
   .subnav-content {
     display: none;
     position: absolute;
@@ -46,23 +49,25 @@
     z-index: 1;
   }
   
-  /* Style the subnav links */
+  
   .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
   }
   
-  /* Add a grey background color on hover */
+  
   .subnav-content a:hover {
     background-color: #eee;
     color: black;
   }
   
-  /* When you move the mouse over the subnav container, open the subnav content */
+  
   .subnav:hover .subnav-content {
     display: block;
   }
+
+  /**/
 
   img {
     width: 300px;
@@ -85,18 +90,23 @@ padding-left: 30px;
 padding-right: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
+font-family: "Libre Baskerville", serif;
   }
+
+
 .other {
   border: 5px double gold;
   display: inline-block;
    width: 200px;
    height: 150px;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding:20px;
    vertical-align: middle;
    text-align: center;
+   font-family: "Libre Baskerville", serif;
   }
 
   .padding {
@@ -115,6 +125,7 @@ padding-bottom: 30px;
    margin-right: 5px;
    vertical-align: middle;
    text-align: center;
+   font-family: "Libre Baskerville", serif;
 }
 
 .sep {
@@ -122,10 +133,27 @@ padding: 45px;
 display:inline-block;
 }
 
-
+.location {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
 
 
 h1, h3 {
   text-align: center;
+  font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
+h3 {
+  font-size: xx-large;
+  font-weight:600 ;
+font-style: italic;
+}
+
+
+footer {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 .navbar {
     overflow: hidden;
     background-color: rgb(12, 12, 12);
   }
   
-  /* Navigation links */
+  
   .navbar a {
     float: left;
     font-size: 16px;
@@ -13,13 +15,13 @@
     text-decoration: none;
   }
 
-  /* The subnavigation menu */
+  
 .subnav {
     float: left;
     overflow: hidden;
   }
   
-  /* Subnav button */
+  
   .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -31,12 +33,12 @@
     margin: 0;
   }
   
-  /* Add a red background color to navigation links on hover */
+  
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: goldenrod;
   }
   
-  /* Style the subnav content - positioned absolute */
+  
   .subnav-content {
     display: none;
     position: absolute;
@@ -46,34 +48,95 @@
     z-index: 1;
   }
   
-  /* Style the subnav links */
+  
   .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
   }
   
-  /* Add a grey background color on hover */
+  
   .subnav-content a:hover {
     background-color: #eee;
     color: black;
   }
   
-  /* When you move the mouse over the subnav container, open the subnav content */
+  
   .subnav:hover .subnav-content {
     display: block;
   }
 
 
+/**/
 
 .uber {
-  display: inline-block;
+  display: inline-block; 
+  border: 3px double gold;
+  padding: 40px;
+  margin: 10px;
+  font-family: "Libre Baskerville", serif;
 }
 
+.dash {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right:100px;
+  margin-left:500px;
+  float: inline-start;
+  padding: 40px;
+  border: 3px double gold;
+  font-family: "Libre Baskerville", serif;
+}
 
+h1 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 .map {
   margin-left: 23px;
   margin-right: 10px;
+}
+
+.location {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+footer {
+  text-align: center;
+  font-family:"Libre Baskerville", serif;
+}
+
+@media (max-width: 430px) {
+  .uber {
+    display: inline-block;
+    font-family: "Libre Baskerville", serif;
+
+  }
+  
+  .dash {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: inline-start;
+    padding-bottom: 30px;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  
+  iframe {
+margin-left: 10px;
+margin-right: 10px;
+width:80vw;
+
+  }
 }

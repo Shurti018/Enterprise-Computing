@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*from W3 schools*/
 .navbar {
     overflow: hidden;
     background-color:  rgb(12, 12, 12);
@@ -85,6 +88,7 @@ padding-right: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
 text-align: center;
+font-family: "Libre Baskerville", serif;
   }
 
   .other {
@@ -98,6 +102,7 @@ text-align: center;
    margin-right: 20px;
    vertical-align: middle;
    text-align: center;
+   font-family: "Libre Baskerville", serif;
   }
 
   .padding {
@@ -107,13 +112,31 @@ text-align: center;
 
   h1, h3 {
     text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   h3 {
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight:600 ;
+  font-style: italic;
   }
 
+.location {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
 
+.padding-curry {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
 
 
 

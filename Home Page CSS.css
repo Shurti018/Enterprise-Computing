@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
+
+
 .navbar {
     overflow: hidden;
     background-color: rgb(12, 12, 12);
@@ -98,7 +99,7 @@
   color:#eee;
 }
 
-#home_content a{
+#home_content a {
   border: 9px soild gold;/*fix border*/
   color: #eee;
   padding: 3px 20px 3px 20px;
