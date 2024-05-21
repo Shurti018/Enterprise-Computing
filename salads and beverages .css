@@ -133,6 +133,10 @@ padding: 45px;
 display:inline-block;
 }
 
+.about {
+  font-size: medium;
+}
+
 .location {
   text-align: center;
   font-family: "Libre Baskerville", serif;
